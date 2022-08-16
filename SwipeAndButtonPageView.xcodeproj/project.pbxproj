@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		2AA2211D28AB8C9C00635D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA2211C28AB8C9C00635D16 /* AppDelegate.swift */; };
 		2AA2211F28AB8C9C00635D16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA2211E28AB8C9C00635D16 /* SceneDelegate.swift */; };
-		2AA2212128AB8C9C00635D16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA2212028AB8C9C00635D16 /* ViewController.swift */; };
 		2AA2212428AB8C9C00635D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA2212228AB8C9C00635D16 /* Main.storyboard */; };
 		2AA2212628AB8C9D00635D16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA2212528AB8C9D00635D16 /* Assets.xcassets */; };
 		2AA2212928AB8C9D00635D16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA2212728AB8C9D00635D16 /* LaunchScreen.storyboard */; };
+		2AA2213128AB8CD000635D16 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA2213028AB8CD000635D16 /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2AA2211928AB8C9C00635D16 /* SwipeAndButtonPageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeAndButtonPageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA2211C28AB8C9C00635D16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AA2211E28AB8C9C00635D16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2AA2212028AB8C9C00635D16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2AA2212328AB8C9C00635D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2AA2212528AB8C9D00635D16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AA2212828AB8C9D00635D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AA2212A28AB8C9D00635D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AA2213028AB8CD000635D16 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				2AA2211C28AB8C9C00635D16 /* AppDelegate.swift */,
 				2AA2211E28AB8C9C00635D16 /* SceneDelegate.swift */,
-				2AA2212028AB8C9C00635D16 /* ViewController.swift */,
+				2AA2213028AB8CD000635D16 /* PageViewController.swift */,
 				2AA2212228AB8C9C00635D16 /* Main.storyboard */,
 				2AA2212528AB8C9D00635D16 /* Assets.xcassets */,
 				2AA2212728AB8C9D00635D16 /* LaunchScreen.storyboard */,
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AA2212128AB8C9C00635D16 /* ViewController.swift in Sources */,
 				2AA2211D28AB8C9C00635D16 /* AppDelegate.swift in Sources */,
 				2AA2211F28AB8C9C00635D16 /* SceneDelegate.swift in Sources */,
+				2AA2213128AB8CD000635D16 /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +287,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M37K3T3993;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwipeAndButtonPageView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -315,7 +315,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M37K3T3993;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwipeAndButtonPageView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
